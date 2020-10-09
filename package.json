@@ -1,0 +1,25 @@
+{
+  "name": "manmixrest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-geogebra": "^1.0.1",
+    "nodemon": "^2.0.4",
+    "puppeteer": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "@types/puppeteer": "^1.6.1"
+  }
+}
