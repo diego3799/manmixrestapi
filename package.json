@@ -14,9 +14,8 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "node-geogebra": "^1.0.1",
-    "nodemon": "^2.0.4",
-    "puppeteer": "^1.7.0"
+    "lp_solve": "^0.2.16",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
     "@types/node": "^10.9.4",
