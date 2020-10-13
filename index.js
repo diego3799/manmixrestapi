@@ -44,9 +44,9 @@ app.post("/", async (req, res) => {
   const result = lp.getObjectiveValue();
   const resultX = lp.get(x);
   const resultY = lp.get(y);
-  if (x !== null) {
+  if (resultX !== null) {
     return res.status(200).send({
-      result,
+      result: result < 0 ? result * -1 : result,
       resultX,
       resultY,
     });
